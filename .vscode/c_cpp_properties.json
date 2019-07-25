@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h",
+                "~/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/7.3.1/include",
+                "~/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/7.3.1/include-fixed",
+                "~/gcc-arm-none-eabi/arm-none-eabi/include",
+                "~/gcc-arm-none-eabi/arm-none-eabi/include/machine",
+                "~/gcc-arm-none-eabi/arm-none-eabi/include/newlib-nano",
+                "~/gcc-arm-none-eabi/arm-none-eabi/include/sys"
+            ],
+            "defines": [
+                "STM32F334xx",
+                "USE_HAL_DRIVER",
+                "HAL_GPIO_MODULE_ENABLED"
+            ],
+            "compilerPath": "/usr/local/share/applications/arm-toolchain/bin/arm-none-eabi-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
